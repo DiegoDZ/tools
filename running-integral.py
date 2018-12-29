@@ -1,8 +1,9 @@
 #####################
-# running-integral.py
+# Running-integral.py
 #####################
+
 # This script calculates the cumulative integral of a function using the sub-package scipy.integrate.
-# Caution: the script is used for calculate the cumulative integral of the specified column of a matrix input.
+# Caution: the script is used for calculate the cumulative integral of the specified column of a matrix input. 
 # More info: https://docs.scipy.org/doc/scipy-0.18.1/reference/tutorial/integrate.html
 
 # Author: DiegoDZ

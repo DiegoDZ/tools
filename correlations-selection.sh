@@ -1,8 +1,9 @@
 #!/bin/bash
 
-awk '{print $1, $2, $10, $30}' corr_iLeiLe > correlations_iLeiLe
-awk '{print $1, $2, $10, $30}' corr_QQ > correlations_QQ
-awk '{print $1, $2, $10, $30}' corr_QPi > correlations_QPi
-awk '{print $1, $2, $10, $30}' corr_PiQ > correlations_PiQ
-awk '{print $1, $2, $10, $30}' corr_PiPi > correlations_PiPi
+# From an input file, this script selects the desired columns.
+
+awk '{print $1, $2, $10, $30}' correlation_QQ   > selectCorr_QQ
+awk '{print $1, $2, $10, $30}' correlation_QPi  > selectcorr_QPi
+awk '{print $1, $2, $10, $30}' correlation_PiQ  > selectcorr_PiQ
+awk '{print $1, $2, $10, $30}' correlation_PiPi > selectcorr_PiPi
 
